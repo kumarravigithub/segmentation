@@ -13,8 +13,8 @@ from nets.MobileUNet import MobileUNet
 checkpoint_path = 'artifacts/checkpoint_weights.{epoch:02d}-{val_loss:.2f}.h5'
 trained_model_path = 'artifacts/model.h5'
 
-nb_train_samples = 2341
-nb_validation_samples = 586
+nb_train_samples = 70
+nb_validation_samples = 30
 
 
 def train(img_file, mask_file, epochs, batch_size):
