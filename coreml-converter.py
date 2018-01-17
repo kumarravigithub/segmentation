@@ -39,7 +39,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--input_model_path',
         type=str,
-        default='artifacts/mu_128_1_025.h5',
+        default='artifacts/model.h5',
     )
     args, _ = parser.parse_known_args()
 
